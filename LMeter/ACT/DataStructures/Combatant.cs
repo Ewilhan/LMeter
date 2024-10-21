@@ -93,6 +93,11 @@ public class Combatant : IActData<Combatant>
     public LazyFloat? HealingTotal { get; set; }
 
     [TextTag]
+    [JsonProperty("damageShield")]
+    [JsonConverter(typeof(LazyFloatConverter))]
+    public LazyFloat? DamageShield { get; set; }
+
+    [TextTag]
     [JsonProperty("healed%")]
     public string HealingPct { get; set; }= string.Empty;
 
@@ -169,6 +174,7 @@ public class Combatant : IActData<Combatant>
             Dps = new LazyFloat((damage / 30).ToString()),
             HealingTotal = new LazyFloat(healing.ToString()),
             OverHeal = new LazyFloat(5000),
+            DamageShield = new LazyFloat(5000),
             Hps = new LazyFloat((healing / 30).ToString()),
             DamagePct = IActData<Combatant>.Random.Next(100) + "%",
             HealingPct = "100%",
