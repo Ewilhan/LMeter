@@ -34,7 +34,8 @@ namespace LMeter
             ImGuiWindowFlags.NoBackground |
             ImGuiWindowFlags.NoInputs |
             ImGuiWindowFlags.NoBringToFrontOnFocus |
-            ImGuiWindowFlags.NoSavedSettings;
+            ImGuiWindowFlags.NoSavedSettings | 
+            ImGuiWindowFlags.NoFocusOnAppearing;
 
         public PluginManager(
             IClientState clientState,
@@ -149,7 +150,7 @@ namespace LMeter
             }
         }
 
-        private void OnLogout()
+        private void OnLogout(int _, int __)
         {
             ConfigHelpers.SaveConfig();
         }
