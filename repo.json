@@ -1,12 +1,18 @@
 [
     {
-        "Author": "Lichie",
-        "Name": "LMeter",
-        "Description": "Plugin to display ACT combat log data.",
+        "Author": "Ewilhan",
+        "Name": "Forked LMeter",
+        "Description": "Plugin to display ACT combat log data. - Ewilhan's Fork",
         "InternalName": "LMeter",
+<<<<<<< HEAD
         "AssemblyVersion": "0.4.1.4",
         "TestingAssemblyVersion": "0.4.1.4",
         "RepoUrl": "https://github.com/lichie567/LMeter",
+=======
+        "AssemblyVersion": "0.0.0.2",
+        "TestingAssemblyVersion": "0.0.0.2",
+        "RepoUrl": "https://github.com/Ewilhan/LMeter",
+>>>>>>> 89ffc9bc6b99a188ada45a2d4c9bd8306bb76e3b
         "ApplicableVersion": "any",
         "DalamudApiLevel": 11,
         "IsHide": "False",
@@ -14,9 +20,16 @@
         "DownloadCount": 0,
         "LastUpdate": 0,
         "LoadPriority": 69420,
+<<<<<<< HEAD
         "DownloadLinkInstall": "https://github.com/lichie567/LMeter/releases/download/0.4.1.4/LMeter.zip",
         "DownloadLinkTesting": "https://github.com/lichie567/LMeter/releases/download/0.4.1.4/LMeter.zip",
         "DownloadLinkUpdate": "https://github.com/lichie567/LMeter/releases/download/0.4.1.4/LMeter.zip",
         "IconUrl": "https://raw.githubusercontent.com/lichie567/LMeter/main/LMeter/Media/Images/icon.png"
+=======
+        "DownloadLinkInstall": "https://github.com/Ewilhan/LMeter/releases/download/0.0.0.2/LMeter.zip",
+        "DownloadLinkTesting": "https://github.com/Ewilhan/LMeter/releases/download/0.0.0.2/LMeter.zip",
+        "DownloadLinkUpdate": "https://github.com/Ewilhan/LMeter/releases/download/0.0.0.2/LMeter.zip",
+        "IconUrl": "https://raw.githubusercontent.com/Ewilhan/LMeter/main/LMeter/Media/Images/icon.png"
+>>>>>>> 89ffc9bc6b99a188ada45a2d4c9bd8306bb76e3b
     }
 ]
