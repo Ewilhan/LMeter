@@ -96,11 +96,6 @@ public class Combatant : IActData<Combatant>
     [JsonProperty("damageShield")]
     [JsonConverter(typeof(LazyFloatConverter))]
     public LazyFloat? DamageShield { get; set; }
-    
-    [TextTag]
-    [JsonProperty("damageShield")]
-    [JsonConverter(typeof(LazyFloatConverter))]
-    public LazyFloat? DamageShield { get; set; }
 
     [TextTag]
     [JsonProperty("healed%")]
